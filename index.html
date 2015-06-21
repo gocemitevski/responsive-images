@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Responsive Images HTML5 Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>This is a responsive images HTML5 demo</h1>
+            <h2>Different image gets loaded depending on the viewport size</h2>
+            <figure>
+                <img id="img-responsive" srcset="img/responsive-image-1600x1200.png 1600w, img/responsive-image-800x600.png 800w, img/responsive-image-600x450.png 600w, img/responsive-image-400x300.png 400w, img/responsive-image-200x150.png 200w" sizes: "(min-width: 400px) 400px, (min-width: 600px) 600px, (min-width: 800px) 800px, (min-width: 1600px) 1600px, 200px" alt="responsive image sample">
+				<figcaption>This is the caption of the repsonsive image</figcaption>
+            </figure>
+        </div>
+    </body>
+</html>
